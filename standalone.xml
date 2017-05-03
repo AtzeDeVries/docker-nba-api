@@ -34,6 +34,7 @@
     <system-properties>
         <property name="nba.v2.conf.dir" value="/etc/nba"/>
         <property name="log4j.configurationFile" value="/etc/nba/log4j2.xml"/>
+        <property name="file.encoding" value="UTF-8" />
     </system-properties>
 
 
