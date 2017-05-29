@@ -1,5 +1,6 @@
 FROM jboss/wildfly
 USER root
+ENV en_US.UTF-8
 RUN mkdir /etc/nba
 ADD nba.properties /etc/nba/nba.properties
 ADD log4j2.xml /etc/nba/log4j2.xml
